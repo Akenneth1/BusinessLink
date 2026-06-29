@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BusinessLink — Prestations de services à Lille | Art, Mode &amp; Culture</title>
+  <meta name="description" content="BusinessLink, la branche services d'Art, Mode &amp; Culture à Lille : création de supports de communication, sites internet, accompagnement administratif, traduction et développement commercial. Un seul interlocuteur pour faire avancer votre activité.">
+  <meta name="theme-color" content="#0b0b0c">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="BusinessLink — Prestations de services à Lille">
+  <meta property="og:description" content="Communication, web, administratif, traduction, développement commercial. Un seul interlocuteur pour faire avancer votre activité.">
+  <meta property="og:locale" content="fr_FR">
+
+  <!-- Polices : Jost (géométrique, façon Futura) + Cormorant (accent éditorial) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Jost:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Référencement local (schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "BusinessLink — Art, Mode & Culture",
+    "description": "Prestations de services : communication, sites internet, accompagnement administratif, traduction, développement commercial.",
+    "areaServed": "Lille et sa métropole",
+    "email": "contact@artmodeetculture.com",
+    "parentOrganization": { "@type": "Organization", "name": "Art, Mode & Culture" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Lille", "addressCountry": "FR" }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#services">Aller au contenu</a>
+
+  <!-- ===================== EN-TÊTE ===================== -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Navigation principale">
+        <a class="brand" href="#top" aria-label="BusinessLink, accueil">
+          <img class="brand__mark" src="assets/logo.svg" alt="">
+          <span class="brand__name">Business<b>Link</b></span>
+        </a>
+
+        <ul class="nav__links" id="primary-nav">
+          <li><a class="nav__link" href="#services">Services</a></li>
+          <li><a class="nav__link" href="#approche">Approche</a></li>
+          <li><a class="nav__link" href="#processus">Processus</a></li>
+          <li><a class="nav__link" href="#apropos">À propos</a></li>
+          <li><a class="nav__link" href="#contact">Contact</a></li>
+          <li><a class="btn btn--solid nav__cta" href="#contact"><span>Demander un devis</span></a></li>
+        </ul>
+
+        <button class="nav__toggle" type="button" aria-label="Ouvrir le menu"
+                aria-controls="primary-nav" aria-expanded="false">
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="accueil">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container">
+        <div class="hero__grid">
+          <div class="hero__content">
+            <p class="eyebrow reveal">Par Art, Mode &amp; Culture · Lille</p>
+            <h1 class="heading hero__title reveal" style="--delay:90ms">
+              BusinessLink
+              <span class="accent">relier vos ambitions aux bonnes compétences.</span>
+            </h1>
+            <p class="lead hero__lead reveal" style="--delay:180ms">
+              Communication, web, administratif, traduction, développement commercial :
+              un seul interlocuteur pour faire avancer votre activité — à Lille et au-delà.
+            </p>
+            <div class="hero__actions reveal" style="--delay:260ms">
+              <a class="btn btn--solid" href="#contact"><span>Demander un devis</span></a>
+              <a class="btn" href="#services"><span>Voir nos services</span></a>
+            </div>
+          </div>
+
+          <!-- Signature : anneau-globe animé (placeholder du futur logo) -->
+          <div class="hero__visual reveal" style="--delay:200ms" aria-hidden="true">
+            <svg class="globe" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
+              <g class="globe__ring" fill="none" stroke="#d8b25a" stroke-width="1">
+                <circle cx="160" cy="160" r="150" opacity="0.5"/>
+                <ellipse cx="160" cy="160" rx="60" ry="150" opacity="0.7"/>
+                <ellipse cx="160" cy="160" rx="110" ry="150" opacity="0.4"/>
+                <line x1="10" y1="160" x2="310" y2="160" opacity="0.6"/>
+                <path d="M40 90 H280 M40 230 H280" opacity="0.35"/>
+              </g>
+              <g class="globe__ring--rev" fill="none" stroke="#e7c87c" stroke-width="1.5">
+                <circle cx="160" cy="160" r="120" stroke-dasharray="2 10" opacity="0.5"/>
+              </g>
+              <g fill="none" stroke="#e7c87c" stroke-width="3.5" stroke-linecap="round">
+                <!-- lobe gauche : ellipse aplatie, centre (126,148), rx=34, ry=22 -->
+                <path d="M 160,148 C 160,136 145,126 126,126 C 107,126 92,136 92,148 C 92,160 107,170 126,170 C 145,170 160,160 160,148"/>
+                <!-- lobe droit : ellipse aplatie, centre (194,148), rx=34, ry=22 -->
+                <path d="M 160,148 C 160,136 175,126 194,126 C 213,126 228,136 228,148 C 228,160 213,170 194,170 C 175,170 160,160 160,148"/>
+              </g>
+              <text x="160" y="198" text-anchor="middle" font-family="'Jost',system-ui,sans-serif" font-size="13" font-weight="600" letter-spacing="4" fill="#e7c87c">BUSINESSLINK</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <span class="scroll-hint" aria-hidden="true">Découvrir</span>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Nos prestations</p>
+          <h2 class="heading heading--lg">Tout ce dont votre projet a besoin,
+            <span class="accent">au même endroit.</span></h2>
+          <p class="lead">De l’idée à la mise en œuvre, nous prenons en charge les missions
+            qui font grandir une activité — avec le soin esthétique qui est la signature
+            d’Art, Mode &amp; Culture.</p>
+        </div>
+
+        <div class="services reveal">
+          <article class="service">
+            <span class="service__index">01</span>
+            <h3 class="service__title">Supports de communication</h3>
+            <p class="service__desc">Une image cohérente, du logo au flyer. Nous concevons
+              vos supports print et digitaux, prêts à imprimer ou à publier.</p>
+            <ul class="service__tags">
+              <li>Identité visuelle</li><li>Cartes de visite</li><li>Flyers &amp; affiches</li>
+              <li>Brochures</li><li>Réseaux sociaux</li>
+            </ul>
+          </article>
+
+          <article class="service">
+            <span class="service__index">02</span>
+            <h3 class="service__title">Sites internet</h3>
+            <p class="service__desc">Des sites élégants, rapides et pensés pour le mobile.
+              Création, refonte, mise en ligne et maintenance.</p>
+            <ul class="service__tags">
+              <li>Site vitrine</li><li>Page de présentation</li><li>Refonte</li>
+              <li>Mise en ligne</li><li>Maintenance</li>
+            </ul>
+          </article>
+
+          <article class="service">
+            <span class="service__index">03</span>
+            <h3 class="service__title">Accompagnement administratif</h3>
+            <p class="service__desc">On vous décharge de la paperasse : rédaction de
+              courriers et de dossiers, aide aux démarches, organisation et suivi.</p>
+            <ul class="service__tags">
+              <li>Courriers</li><li>Dossiers</li><li>Démarches</li><li>Organisation</li>
+            </ul>
+          </article>
+
+          <article class="service">
+            <span class="service__index">04</span>
+            <h3 class="service__title">Traduction</h3>
+            <p class="service__desc">Vos documents, sites et supports rendus accessibles
+              à un public plus large. Traduction, relecture et adaptation.</p>
+            <ul class="service__tags">
+              <li>Documents</li><li>Sites web</li><li>Supports de com</li><li>Relecture</li>
+            </ul>
+          </article>
+
+          <article class="service">
+            <span class="service__index">05</span>
+            <h3 class="service__title">Développement commercial</h3>
+            <p class="service__desc">On structure votre offre et on la met en mouvement :
+              prospection, mise en relation et stratégie de croissance.</p>
+            <ul class="service__tags">
+              <li>Prospection</li><li>Mise en relation</li><li>Stratégie</li><li>Structuration de l’offre</li>
+            </ul>
+          </article>
+
+          <article class="service">
+            <span class="service__index">06</span>
+            <h3 class="service__title">Conseil &amp; image de marque</h3>
+            <p class="service__desc">Un regard extérieur pour clarifier votre positionnement,
+              votre ligne éditoriale et la cohérence de votre image.</p>
+            <ul class="service__tags">
+              <li>Positionnement</li><li>Ligne éditoriale</li><li>Cohérence visuelle</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== APPROCHE ===================== -->
+    <section class="section" id="approche">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Pourquoi BusinessLink</p>
+          <h2 class="heading heading--lg">Une exigence simple :
+            <span class="accent">vous faire gagner du temps, et de l’allure.</span></h2>
+        </div>
+
+        <div class="approach__grid">
+          <div class="pillar reveal">
+            <h3 class="pillar__title">Un seul interlocuteur</h3>
+            <p class="pillar__text">Plus besoin de jongler entre plusieurs prestataires.
+              Nous coordonnons l’ensemble, vous gardez un contact unique.</p>
+          </div>
+          <div class="pillar reveal" style="--delay:80ms">
+            <h3 class="pillar__title">Ancrage lillois</h3>
+            <p class="pillar__text">Une équipe de Lille, qui connaît le tissu local
+              et reste disponible et réactive, en personne comme à distance.</p>
+          </div>
+          <div class="pillar reveal" style="--delay:160ms">
+            <h3 class="pillar__title">Le soin esthétique</h3>
+            <p class="pillar__text">L’ADN d’Art, Mode &amp; Culture : chaque rendu est
+              pensé pour être beau autant qu’efficace.</p>
+          </div>
+          <div class="pillar reveal" style="--delay:240ms">
+            <h3 class="pillar__title">Des devis clairs</h3>
+            <p class="pillar__text">Un tarif annoncé avant de commencer, des étapes définies,
+              aucune mauvaise surprise.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROCESSUS ===================== -->
+    <section class="section section--tight" id="processus">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Comment ça se passe</p>
+          <h2 class="heading heading--lg">Quatre étapes,
+            <span class="accent">sans jargon.</span></h2>
+        </div>
+
+        <div class="process">
+          <div class="step reveal">
+            <span class="step__num">01</span>
+            <div class="step__body">
+              <h3 class="step__title">Échange</h3>
+              <p class="step__text">On prend le temps de comprendre votre besoin et votre
+                contexte. Premier échange gratuit et sans engagement.</p>
+            </div>
+          </div>
+          <div class="step reveal" style="--delay:80ms">
+            <span class="step__num">02</span>
+            <div class="step__body">
+              <h3 class="step__title">Proposition</h3>
+              <p class="step__text">Vous recevez un devis clair, avec le périmètre, les délais
+                et les étapes. Vous validez avant qu’on démarre.</p>
+            </div>
+          </div>
+          <div class="step reveal" style="--delay:160ms">
+            <span class="step__num">03</span>
+            <div class="step__body">
+              <h3 class="step__title">Réalisation</h3>
+              <p class="step__text">On produit, vous suivez l’avancement et vous validez à
+                chaque étape clé. Aucune surprise au moment de la livraison.</p>
+            </div>
+          </div>
+          <div class="step reveal" style="--delay:240ms">
+            <span class="step__num">04</span>
+            <div class="step__body">
+              <h3 class="step__title">Livraison &amp; suivi</h3>
+              <p class="step__text">On livre les fichiers et les accès, on vous accompagne à
+                la prise en main, et on reste disponible ensuite.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== À PROPOS ===================== -->
+    <section class="section" id="apropos">
+      <div class="container">
+        <div class="about">
+          <div class="about__panel reveal">
+            <img class="about__mark" src="assets/logo.svg" alt="">
+            <p class="muted">BusinessLink est la branche services d’<strong>Art, Mode &amp;
+              Culture</strong>, association lilloise dédiée à l’art, la mode et la culture.</p>
+            <p class="muted">Notre métier : rendre accessibles aux entrepreneurs, associations
+              et particuliers des prestations de qualité, avec le soin du détail.</p>
+            <p class="about__signature">Relier les talents, faire avancer les projets.</p>
+          </div>
+
+          <div class="about__body reveal" style="--delay:120ms">
+            <p class="eyebrow">À propos</p>
+            <h2 class="heading heading--md">Le lien entre votre projet
+              <span class="accent">et sa réussite.</span></h2>
+            <p>Nous sommes nés d’un constat simple : beaucoup de porteurs de projet ont une
+              belle idée, mais peu de temps et trop d’interlocuteurs. BusinessLink réunit sous
+              un même toit les compétences essentielles pour lancer, structurer et faire
+              rayonner une activité.</p>
+            <p>De la communication au développement commercial, en passant par le web et
+              l’administratif, nous adaptons notre accompagnement à votre rythme et à votre
+              budget — du coup de pouce ponctuel au suivi dans la durée.</p>
+            <p style="margin-top:1.8rem">
+              <a class="btn" href="#contact"><span>Parlons de votre projet</span></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact__grid">
+          <aside class="contact__aside reveal">
+            <p class="eyebrow">Contact</p>
+            <h2 class="heading heading--md">Demandez votre
+              <span class="accent">devis gratuit.</span></h2>
+            <p class="muted">Décrivez-nous votre besoin en quelques lignes. Nous revenons
+              vers vous rapidement avec une proposition claire.</p>
+
+            <dl class="contact__list">
+              <div class="contact__item">
+                <dt>E-mail</dt>
+                <dd>contact@artmodeetculture.com</dd>
+              </div>
+              <div class="contact__item">
+                <dt>Zone</dt>
+                <dd>Lille &amp; sa métropole</dd>
+              </div>
+              <div class="contact__item">
+                <dt>Réponse</dt>
+                <dd>Sous 48&nbsp;h ouvrées</dd>
+              </div>
+            </dl>
+          </aside>
+
+          <form class="form reveal" id="contact-form" style="--delay:120ms" novalidate>
+            <div class="field--row">
+              <div class="field">
+                <label for="name">Nom <span class="req">*</span></label>
+                <input type="text" id="name" name="name" autocomplete="name" placeholder="Votre nom">
+                <span class="field__error"></span>
+              </div>
+              <div class="field">
+                <label for="phone">Téléphone</label>
+                <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="Facultatif">
+                <span class="field__error"></span>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="email">E-mail <span class="req">*</span></label>
+              <input type="email" id="email" name="email" autocomplete="email" placeholder="vous@exemple.com">
+              <span class="field__error"></span>
+            </div>
+
+            <div class="field">
+              <label for="service">Service souhaité <span class="req">*</span></label>
+              <select id="service" name="service">
+                <option value="" selected disabled>Choisissez un service…</option>
+                <option>Supports de communication</option>
+                <option>Site internet</option>
+                <option>Accompagnement administratif</option>
+                <option>Traduction</option>
+                <option>Développement commercial</option>
+                <option>Conseil &amp; image de marque</option>
+                <option>Autre / plusieurs services</option>
+              </select>
+              <span class="field__error"></span>
+            </div>
+
+            <div class="field">
+              <label for="message">Votre projet <span class="req">*</span></label>
+              <textarea id="message" name="message" placeholder="Décrivez votre besoin en quelques mots…"></textarea>
+              <span class="field__error"></span>
+            </div>
+
+            <div class="form__feedback" role="status" aria-live="polite"></div>
+
+            <div class="form__submit">
+              <button class="btn btn--solid" type="submit"><span>Envoyer ma demande</span></button>
+              <span class="form__note">Réponse sous 48&nbsp;h · sans engagement</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== PIED DE PAGE ===================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a class="brand" href="#top" aria-label="BusinessLink, accueil">
+            <img class="brand__mark" src="assets/logo.svg" alt="">
+            <span class="brand__name">Business<b>Link</b></span>
+          </a>
+          <p class="footer__tagline">La branche services d’Art, Mode &amp; Culture.
+            Communication, web, administratif, traduction et développement commercial à Lille.</p>
+        </div>
+        <nav class="footer__nav" aria-label="Liens de pied de page">
+          <a href="#services">Services</a>
+          <a href="#approche">Approche</a>
+          <a href="#processus">Processus</a>
+          <a href="#apropos">À propos</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <small>© <span id="year">2026</span> BusinessLink — Art, Mode &amp; Culture. Tous droits réservés.</small>
+        <small>Lille, France</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
