@@ -218,7 +218,7 @@ ul { list-style: none; padding: 0; }
   gap: 2rem;
 }
 .brand { display: inline-flex; align-items: center; gap: 0.7rem; }
-.brand__mark { width: 34px; height: 34px; flex: none; }
+.brand__mark { width: 34px; height: auto; flex: none; }
 .brand__name {
   font-family: var(--font-display);
   font-weight: 400;
@@ -460,7 +460,7 @@ ul { list-style: none; padding: 0; }
     linear-gradient(160deg, rgba(216,178,90,0.06), transparent 60%),
     var(--ink-2);
 }
-.about__mark { width: 86px; height: 86px; margin-bottom: 1.5rem; }
+.about__mark { width: 86px; height: auto; margin-bottom: 1.5rem; }
 .about__panel p + p { margin-top: 1rem; }
 .about__signature {
   font-family: var(--font-accent);
